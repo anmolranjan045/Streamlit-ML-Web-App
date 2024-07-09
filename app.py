@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import ConfusionMatrixDisplay, RocCurveDisplay, PrecisionRecallDisplay
 from sklearn.metrics import precision_score, recall_score, confusion_matrix
 import matplotlib.pyplot as plt
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 def main():
     st.title("Binary Classification Web App")
